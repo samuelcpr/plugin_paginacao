@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="BR" lang="PT-BR">
+<head>
+<title>:::: JS Pagination ::::</title>
+<link type="text/css" href="./style.css" rel="stylesheet" />
+<script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    
+<table id="tb1">
+<tr>
+<th width="50px">Textos</th>
+</tr>
+<tr>
+<td>Texto 1</td>
+</tr>
+<tr>
+<td>Texto 2</td>
+</tr>
+<tr>
+<td>Texto 3</td>
+</tr>
+<tr>
+<td>Texto 4</td>
+</tr>
+<tr>
+<td>Texto 5</td>
+</tr>
+<tr>
+<td>Texto 6</td>
+</tr>
+<tr>
+<td>Texto 7</td>
+</tr>
+<tr>
+<td>Texto 8</td>
+</tr>
+<tr>
+<td>Texto 9</td>
+</tr>
+<tr>
+<td>Texto 10</td>
+</tr>
+<tr>
+<td>Texto 11</td>
+</tr>
+<tr>
+<td>Texto 12</td>
+</tr>
+<tr>
+<td>Texto 13</td>
+</tr>
+<tr>
+<td>Texto 14</td>
+</tr>
+<tr>
+<td>Texto 15</td>
+</tr>
+<tr>
+<td>Texto 16</td>
+</tr>
+
+</table>
+
+<br>
+<a href="#" style="text-decoration: none; color: none;">
+<!-- div onde será criados os links da paginação -->
+<div id="pageNav"></div>
+</a>
+<script>
+var pager = new Pager('tb1', 3);
+pager.init();
+pager.showPageNav('pager', 'pageNav');
+pager.showPage(1);
+</script>
+</body>
+</html>
