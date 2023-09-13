@@ -1,0 +1,65 @@
+body{
+    color: #FFF;
+    font-family: Calibri, Cambria, Arial;
+    font-size: 11px;
+    text-shadow:7px 3px 5px #605f61;
+    background:#000;
+}
+
+
+#tb1
+{
+    width:300px;
+    padding:3px;
+}
+
+TH
+{
+    padding:3px;
+    font:bold 12px verdana;
+    background-color:#333;
+}
+
+TD
+{
+    padding:3px;
+    font:11px verdana;
+    background-color:#333;
+}
+
+.pg-ctrl
+{
+    font:bold 16px verdana;
+/*    color: #0063e3; */
+    text-decoration: none; 
+    cursor: pointer;    
+    padding:4px;
+    margin:0px;
+    border: 0px;
+}
+.pg-normal 
+{
+    font:10px verdana;
+    text-decoration: none; 
+    cursor: pointer;    
+    background-color:#333;
+    padding:3px 6px;
+    margin:1px;
+    border: 1px solid #FFFFFF;
+}
+
+.pg-selected 
+{
+    font:10px verdana;
+    color: #333;
+    text-decoration: none;    
+    cursor: pointer;
+    background-color:#FFFFFF;
+    padding:3px 6px;
+    margin:1px;
+    border: 1px solid #FFFFFF;
+}
+
+span {
+    margin: 0 5px;
+}
